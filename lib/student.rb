@@ -8,7 +8,7 @@ class Student < User
   
   def learn(fact)
     fact = ""
-    @knowledge < fact
+    @knowledge << fact
   end
   
   def knowledge
